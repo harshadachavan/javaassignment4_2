@@ -4,6 +4,18 @@ package relationshipdemo;
  * 
  * Has-a relationship is composition relationship which is a productive way of code reuse.
  * 
+ * ****************************************************************************************
+ * Comparison :
+ * ****************************************************************************************
+ * The Has-A relationship is preferred because it is more easy to modify later,
+ * it's easy to change behavior on the fly with Dependency Injection / Setters.
+ * Inheritance is more rigid as Java does not allow to derive from more than one class.
+ * 
+ * The composition approach to code reuse provides stronger encapsulation than inheritance.
+ * 
+ * But we should not follow Composition only approach as as some times we might need 
+ * complete inheritance.
+ * ****************************************************************************************
  * */
 public class RelationshipDemo {
 
